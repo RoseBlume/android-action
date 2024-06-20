@@ -6,6 +6,8 @@ apt-get install npm
 npm install --force -g npm@latest
 npm install --force -g nodejs@latest
 
+rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android x86_64-linux-android
+
 mkdir Android
 wget https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip
 unzip *.zip -d Android
